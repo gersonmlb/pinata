@@ -14,11 +14,12 @@ body {
 
 .button:focus {
     outline: 0;
+}
+
+.button:hover {
     background-size: 90% 90%;
     background-repeat: no-repeat;
 }
-
-.button:hover {}
 
 #cuadrito {
     width: 50px;
@@ -31,56 +32,11 @@ body {
     color: #a3bad8;
 }
 
-#id2 {
-    background-image: url('../images/regalo.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
-#id4 {
-    background-image: url('../images/regalo2.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
-#id6 {
-    background-image: url('../images/regalo.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
-#id8 {
-    background-image: url('../images/regalo.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
-#id10 {
-    background-image: url('../images/regalo2.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
+#id2,
+#id4,
+#id6,
+#id8,
+#id10,
 #id12 {
     background-image: url('../images/regalo.png');
     background-size: 100% 100%;
@@ -91,8 +47,13 @@ body {
     width: 50px;
 }
 
-#id14 {
-    background-image: url('../images/regalo2.png');
+#id3:hover,
+#id5:hover,
+#id7:hover,
+#id9:hover,
+#id11:hover,
+#id1:hover {
+    background-image: url('../images/regaloabierto.png');
     background-size: 100% 100%;
     background-color: #0c0c1c;
     outline: 0;
@@ -101,28 +62,14 @@ body {
     width: 50px;
 }
 
-#id16 {
-    background-image: url('../images/regalo.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
-#id18 {
-    background-image: url('../images/regalo2.png');
-    background-size: 100% 100%;
-    background-color: #0c0c1c;
-    outline: 0;
-    border: none;
-    height: 50px;
-    width: 50px;
-}
-
-#id20 {
-    background-image: url('../images/regalo.png');
+#id1,
+#id3,
+#id5,
+#id7,
+#id9,
+#id11,
+#id13 {
+    background-image: url('../images/regalo3.png');
     background-size: 100% 100%;
     background-color: #0c0c1c;
     outline: 0;
