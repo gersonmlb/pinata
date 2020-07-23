@@ -13,15 +13,22 @@
 
 <body>
     <section style="margin: 0; height: 100vh;">
+
+        <audio id="reproductor" controls autoplay="autoplay" loop="-1">
+            <source src="music/fondo.mp3" type="audio/mp3"/>
+        </audio>
+
         <br>
         <br>
         <div class="row m-0" style="width: 100%;">
             <div class="container col-lg-12">
                 <br>
                 <button type="button" class="button" value="+1" onClick="cambiar();"></button>
+
                 <br>
             </div>
             <div class="container text-center">
+                <br>
                 <div class="row col-lg-12 text-center">
                     <div class="container col-lg-1 m-0" id="contador4"></div>
                     <div class="container col-lg-1 m-0" id="contador2"></div>
@@ -70,6 +77,7 @@
 
 
 </body>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

@@ -29,7 +29,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 6) {
-        document.getElementById('contador4').innerHTML = "<button id='id3' class='btn' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia'></button>";
+        document.getElementById('contador4').innerHTML = "<button id='id3' class='btn' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fyuli.mp4?alt=media&token=0e7d18d2-6b63-4b17-80f9-80aae335d13d' data-name='Yuli Gonzales'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
