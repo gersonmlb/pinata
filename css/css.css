@@ -1,0 +1,132 @@
+body {
+    background-color: #0c0c1c;
+    text-align: center;
+}
+
+.button {
+    background-image: url('../images/pina2.png');
+    background-color: #0c0c1c;
+    background-size: 100% 100%;
+    border: none;
+    height: 320px;
+    width: 320px;
+}
+
+.button:focus {
+    outline: 0;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+}
+
+.button:hover {}
+
+#cuadrito {
+    width: 50px;
+    padding: 0;
+}
+
+#contador {
+    font-size: 50px;
+    font-weight: bold;
+    color: #a3bad8;
+}
+
+#id2 {
+    background-image: url('../images/regalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id4 {
+    background-image: url('../images/regalo2.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id6 {
+    background-image: url('../images/regalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id8 {
+    background-image: url('../images/regalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id10 {
+    background-image: url('../images/regalo2.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id12 {
+    background-image: url('../images/regalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id14 {
+    background-image: url('../images/regalo2.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id16 {
+    background-image: url('../images/regalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id18 {
+    background-image: url('../images/regalo2.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+#id20 {
+    background-image: url('../images/regalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
