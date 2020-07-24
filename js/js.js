@@ -94,7 +94,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 16) {
-        document.getElementById('contador9').innerHTML = "<button id='id8' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia'></button>";
+        document.getElementById('contador9').innerHTML = "<button id='id8' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fwinnie.mp4?alt=media&token=dc6ca052-c8ac-49d7-9a37-43048b36994d' data-name='Winnie'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
