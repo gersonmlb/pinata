@@ -85,6 +85,14 @@ body {
     }
 }
 
+@media (max-width: 2560px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 50%;
+    }
+}
+
 @media (max-width: 1440px) {
     #p1,
     #p2,
