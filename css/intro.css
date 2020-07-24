@@ -34,9 +34,10 @@ body {
     background-color: #0C091D;
 }
 
-.line-1 {
-    position: relative;
-    top: 50%;
+#p1,
+#p2,
+#p3 {
+    position: absolute;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, .75);
@@ -45,6 +46,18 @@ body {
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
+}
+
+#p1 {
+    top: 30%;
+}
+
+#p2 {
+    top: 40%;
+}
+
+#p3 {
+    top: 50%;
 }
 
 
@@ -69,5 +82,53 @@ body {
     }
     to {
         border-right-color: transparent;
+    }
+}
+
+@media (max-width: 1440px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 35%;
+    }
+}
+
+@media (max-width: 425px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 28%;
+    }
+}
+
+@media (max-width: 375px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 20%;
+    }
+}
+
+@media (max-width: 320px) {
+    #p1,
+    #p2,
+    #p3 {
+        left: 10%;
     }
 }

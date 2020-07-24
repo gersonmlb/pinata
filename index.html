@@ -18,25 +18,24 @@
         $('#myModal').modal('toggle');
     });
 </script>
-onload="ini()"
 
-<body>
+<body style="margin: 0; padding: 0;">
     <audio id="sonido">
         <source src="music/fondo.mp3"></source>
     </audio>
 
-    <p class="line-1 anim-typewriter">¡Feliz Cumpleaños!</p>
+    <canvas id="canvas" style="margin: 0; padding: 0;"></canvas>
+    <p id="p1" class="line-1 anim-typewriter">¡Feliz Cumpleaños!</p>
     <br>
-    <p class="line-1 anim-typewriter">Happy Birthday</p>
+    <p id="p2" class="line-1 anim-typewriter">Happy Birthday</p>
     <br>
-    <p class="line-1 anim-typewriter">Feliz Aniversário</p>
-    <div class="container">
-        <canvas id="canvas"></canvas>
-    </div>
+    <p id="p3" class="line-1 anim-typewriter">Feliz Aniversário</p>
+
+
     <!-- Modal HTML -->
     <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
         <div class="modal-dialog modal-lg">
-            <div class="modal-content" style="background-color:#f5f5f5;">
+            <div class="modal-content text-center" style="background-color:#f5f5f5;">
                 <div class="modal-body text-center">
                     <img src="images/banner.png" alt="images" style="width: 100%;">
                     <br>
@@ -48,9 +47,7 @@ onload="ini()"
                     <h3 style="color: #0C091D;"> <strong>Esperancitos Rebeldes</strong></h3>
                     <br>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="subscribe" onclick="sonido.play()" style=" color: #0C091D;">Close</button>
-                </div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="subscribe" onclick="sonido.play()" style=" background-color: #7ed955; color:#0C091D ; height: 80px;">SIGAMOS -></button>
             </div>
         </div>
     </div>
