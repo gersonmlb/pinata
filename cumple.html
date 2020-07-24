@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/css.css">
     <script src="js/js.js"></script>
     <title>Cumpleaños</title>
 </head>
 
 <body>
+    <audio id="sonido">
+        <source src="music/fondo.mp3"></source>
+    </audio>
+
     <section style="margin: 0; height: 100vh;">
-
-        <audio id="reproductor" controls autoplay="autoplay" loop="-1" disable>
-            <source src="music/fondo.mp3" type="audio/mp3"/>
-        </audio>
-
         <br>
         <br>
         <div class="row m-0" style="width: 100%;">
             <div class="container col-lg-12">
                 <br>
-                <button type="button" class="button" value="+1" onClick="cambiar();"></button>
-
+                <button type="button" class="button" value="+1" onClick="cambiar();" id="sonidopinata"></button>
                 <br>
             </div>
             <div class="container text-center">
@@ -64,7 +64,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src=""></iframe>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -75,10 +75,27 @@
     </div>
 
 
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <br>
+                    <h3> ¡¡ Hola Nery !!</h3>
+                    <br>
+                    <h3> ¡¡ Llegaste a la mejor parte !!</h3>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="subscribe" onclick="sonido.play()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </html>

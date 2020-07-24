@@ -42,7 +42,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 8) {
-        document.getElementById('contador5').innerHTML = "<button id='id4' class='btn' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia' ></button>";
+        document.getElementById('contador5').innerHTML = "<button id='id4' class='btn' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fjuan.mp4?alt=media&token=2d23e49f-d798-460f-9643-8aea300f7d1b' data-name='Juan' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -55,7 +55,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 10) {
-        document.getElementById('contador6').innerHTML = "<button id='id5' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia' ></button>";
+        document.getElementById('contador6').innerHTML = "<button id='id5' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fmelky.mp4?alt=media&token=b13dd129-36ec-4b4c-b5a3-c05d38ac611c' data-name='Melky' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -68,7 +68,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 12) {
-        document.getElementById('contador7').innerHTML = "<button id='id6' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia' ></button>";
+        document.getElementById('contador7').innerHTML = "<button id='id6' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fyainny.mp4?alt=media&token=a1bc215d-86bf-40dd-b5ed-4f3fc3560ad6' data-name='Yainny' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -81,7 +81,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 14) {
-        document.getElementById('contador8').innerHTML = "<button id='id7' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia'></button>";
+        document.getElementById('contador8').innerHTML = "<button id='id7' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2FAlejandra.mp4?alt=media&token=6ba6307e-b485-42b5-9d88-421726938e2e' data-name='Alejandra'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -137,3 +137,20 @@ function cambiar() {
 
     }
 }
+
+function accionPlay() {
+    var reproducir = new Audio();
+    reproducir.src = "music/sonido.mp3";
+    reproducir.play();
+}
+
+function iniciar() {
+    button = document.querySelectorAll("button");
+    button[0].addEventListener("click", accionPlay, false);
+}
+window.addEventListener("load", iniciar, false);
+
+$(document).ready(function() {
+    var sonido = document.getElementById("sonido");
+    $('#myModal').modal('toggle');
+});

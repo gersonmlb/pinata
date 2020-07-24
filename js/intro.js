@@ -15,8 +15,6 @@ function ini() {
     setInterval("cuenta()", 1000);
 }
 
-
-
 // Little Canvas things
 var canvas = document.querySelector("#canvas"),
     ctx = canvas.getContext('2d');

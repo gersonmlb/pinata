@@ -3,19 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=100%, initial-scale=1.0">
-    <link rel="stylesheet" href="css/intro.css">
-    <title>Birthday</title>
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<body onload="ini()">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/intro.css">
+
+    <title>Birthday</title>
+
+</head>
+<script>
+    $(document).ready(function() {
+        var sonido = document.getElementById("sonido");
+        $('#myModal').modal('toggle');
+    });
+</script>
+onload="ini()"
+
+<body>
+    <audio id="sonido">
+        <source src="music/fondo.mp3"></source>
+    </audio>
+
     <p class="line-1 anim-typewriter">¡Feliz Cumpleaños!</p>
     <br>
     <p class="line-1 anim-typewriter">Happy Birthday</p>
     <br>
     <p class="line-1 anim-typewriter">Feliz Aniversário</p>
-    <canvas id="canvas"></canvas>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content" style="background-color: #7ed955;">
+                <div class="modal-body text-center">
+                    <br>
+                    <h3 style="color: #0C091D;"> ¡¡ Hola Nery !!</h3>
+                    <br>
+                    <br>
+                    <h3 style="color: #0C091D;"> Esto es una sorpresa de los</h3>
+                    <h3 style="color: #0C091D;"> <strong>Esperancitos Rebeldes</strong></h3>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="subscribe" onclick="sonido.play()" style=" color: #0C091D;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="js/intro.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
 </html>
