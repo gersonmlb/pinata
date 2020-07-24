@@ -1,5 +1,5 @@
 var contador = 0;
-var fin_contador = 25; // Tiempo en en el que deseas que redireccione la funcion.
+var fin_contador = 30; // Tiempo en en el que deseas que redireccione la funcion.
 var iniciado = false;
 
 function cuenta() {
