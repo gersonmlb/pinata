@@ -3,7 +3,7 @@ var contador = 0;
 function cambiar() {
 
     if (contador == 2) {
-        document.getElementById('contador8').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2FAlejandra.mp4?alt=media&token=6ba6307e-b485-42b5-9d88-421726938e2e' data-name='Alejandra'></button>";
+        document.getElementById('contador7').innerHTML = "<button id='id6' onclick='sonido.pause()' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fyainny.mp4?alt=media&token=a1bc215d-86bf-40dd-b5ed-4f3fc3560ad6' data-name='Yainny' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -14,7 +14,6 @@ function cambiar() {
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
-
 
     } else if (contador == 4) {
         document.getElementById('contador3').innerHTML = "<button id='id2' onclick='sonido.pause()' class='btn' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fhannia.mp4?alt=media&token=98d750e7-0c5c-4490-9d80-ad1581c1d980' data-name='Hannia'></button>";
@@ -69,7 +68,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 12) {
-        document.getElementById('contador7').innerHTML = "<button id='id6' onclick='sonido.pause()' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fyainny.mp4?alt=media&token=a1bc215d-86bf-40dd-b5ed-4f3fc3560ad6' data-name='Yainny' ></button>";
+        document.getElementById('contador8').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2FAlejandra.mp4?alt=media&token=6ba6307e-b485-42b5-9d88-421726938e2e' data-name='Alejandra'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -80,6 +79,7 @@ function cambiar() {
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
+
 
     } else if (contador == 14) {
         document.getElementById('contador2').innerHTML = "<button id='id1' onclick='sonido.pause()' class='btn btn1' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fyuliana.MP4?alt=media&token=68e220b6-3b12-4372-9f84-0e2f0cf9069d' data-name='Yuliana'></button>";
@@ -153,5 +153,7 @@ window.addEventListener("load", iniciar, false);
 
 $(document).ready(function() {
     var sonido = document.getElementById("sonido");
+    $('#myModal2').modal('toggle');
     $('#myModal').modal('toggle');
+
 });
