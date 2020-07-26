@@ -791,5 +791,10 @@ $(document).ready(function() {
     $('#aleultimo').on('click', function() {
         $('#modaledson').modal('toggle');
     })
+    ultimo
+
+    $('#ultimo').on('click', function() {
+        $('#modalnico').modal('toggle');
+    })
 
 });
