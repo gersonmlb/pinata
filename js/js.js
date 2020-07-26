@@ -68,21 +68,8 @@ function cambiar() {
         })
         contador += 1;
 
+
     } else if (contador == 12) {
-        document.getElementById('contador8').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2FAlejandra.mp4?alt=media&token=6ba6307e-b485-42b5-9d88-421726938e2e' data-name='Alejandra'></button>";
-        $('#exampleModal').on('show.bs.modal', function(event) {
-            var button = $(event.relatedTarget)
-            var recipient = button.data('whatever')
-            var name = button.data('name')
-
-            var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
-            modal.find('.modal-body iframe').attr('src', recipient)
-        })
-        contador += 1;
-
-
-    } else if (contador == 14) {
         document.getElementById('contador2').innerHTML = "<button id='id1' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fyuliana.MP4?alt=media&token=68e220b6-3b12-4372-9f84-0e2f0cf9069d' data-name='Yuliana'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
@@ -95,7 +82,7 @@ function cambiar() {
         })
         contador += 1;
 
-    } else if (contador == 16) {
+    } else if (contador == 14) {
         document.getElementById('contador9').innerHTML = "<button id='id8' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fwinnie.mp4?alt=media&token=dc6ca052-c8ac-49d7-9a37-43048b36994d' data-name='Winnie'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
@@ -108,7 +95,7 @@ function cambiar() {
         })
         contador += 1;
 
-    } else if (contador == 18) {
+    } else if (contador == 16) {
         document.getElementById('contador10').innerHTML = "<button id='id9' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fsonoftheonlyking.mp4?alt=media&token=8ff53392-687d-418e-b575-0152a7bdeff8' data-name='Luis' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
@@ -121,7 +108,7 @@ function cambiar() {
         })
         contador += 1;
 
-    } else if (contador == 20) {
+    } else if (contador == 18) {
         document.getElementById('contador11').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2FEnmanuel.MP4?alt=media&token=6305928d-2528-46f3-befe-a278f277885a' data-name='Enmanuel'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
@@ -134,7 +121,7 @@ function cambiar() {
         })
         contador += 1;
 
-    } else if (contador == 22) {
+    } else if (contador == 20) {
         document.getElementById('contador12').innerHTML = "<button id='id11' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fjose_vt.mp4?alt=media&token=102f9836-fb99-4b3d-8034-7ae8a6786dc5' data-name='Jose'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
@@ -147,7 +134,7 @@ function cambiar() {
         })
         contador += 1;
 
-    } else if (contador == 24) {
+    } else if (contador == 22) {
         document.getElementById('contador13').innerHTML = "<button id='id12' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fmarco.mp4?alt=media&token=1a03912a-76c0-4083-a7aa-b124057fc050' data-name='Marco'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
@@ -160,7 +147,7 @@ function cambiar() {
         })
         contador += 1;
 
-    } else if (contador == 26) {
+    } else if (contador == 24) {
         $("#granregalo").show();
         contador += 1;
 
