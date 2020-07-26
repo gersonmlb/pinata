@@ -77,3 +77,13 @@ body {
     height: 50px;
     width: 50px;
 }
+
+#granregalo {
+    background-image: url('../images/granregalo.png');
+    background-size: 100% 100%;
+    background-color: #0c0c1c;
+    outline: 0;
+    border: none;
+    height: 80px;
+    width: 80px;
+}
