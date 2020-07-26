@@ -109,7 +109,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 18) {
-        document.getElementById('contador11').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2FEnmanuel.MP4?alt=media&token=6305928d-2528-46f3-befe-a278f277885a' data-name='Enmanuel'></button>";
+        document.getElementById('contador11').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/Enmanuel.MP4?alt=media&token=b7326b81-246f-41a1-ba34-bc21a53226cf' data-name='Enmanuel'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
