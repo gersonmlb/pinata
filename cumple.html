@@ -81,8 +81,8 @@
     </div>
 
     <!-- Modal HTML -->
-    <div id="myModal2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
-        <div class="modal-dialog modal-lg">
+    <div id="myModal2" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
+        <div class="modal-dialog ">
             <div class="modal-content text-center" style="background-color:#f5f5f5;">
                 <div class="modal-body text-center">
                     <img src="images/banner.png" alt="images" style="width: 100%;">
@@ -95,10 +95,26 @@
                     <h3 style="color: #0C091D;"> <strong>By - Esperancitos Rebeldes</strong></h3>
                     <br>
                 </div>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="subscribe" onclick="sonido.play()" style=" background-color: #7ed955; color:#0C091D ; height: 80px;">SIGAMOS -></button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="subscribe" onclick="sonido.play()" style=" background-color: #7ed955; color:#0C091D ; height: 40px;">SIGAMOS -></button>
             </div>
         </div>
     </div>
+
+    <!-- Modal serenata -->
+    <div id="myModal" class="modal fade bd-example-modal-lg" id="modaledson" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video src="https://firebasestorage.googleapis.com/v0/b/cursos-biblicos-v2.appspot.com/o/videos%2Fserenata.MP4?alt=media&token=d2122ea6-312a-45f3-8e6a-4a12d5817aac" controls preload="auto" autoplay></video>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #7ed955;">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- Modal Alenjadra ultimo -->
     <div class="modal fade " id="exampleModalale" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
