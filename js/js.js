@@ -4,7 +4,7 @@ function cambiar() {
 
     if (contador == 2) {
 
-        document.getElementById('contador7').innerHTML = "<button id='id6' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='https://console.firebase.google.com/u/0/project/telemedicina-9eada/storage/telemedicina-9eada.appspot.com/files?hl=es' data-name='Yainny'></button>";
+        document.getElementById('contador7').innerHTML = "<button id='id6' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-ariel.mp4' data-name='Ariel'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -17,7 +17,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 4) {
-        document.getElementById('contador3').innerHTML = "<button id='id2' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/hannia.mp4?alt=media&token=e8b9bd11-4a89-4d1a-9d35-fb38c38b6eee' data-name='Hannia'></button>";
+        document.getElementById('contador3').innerHTML = "<button id='id2' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-noremey.mp4' data-name='Noremey'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -30,7 +30,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 6) {
-        document.getElementById('contador4').innerHTML = "<button id='id3' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/yuli.mp4?alt=media&token=2e50bb7d-3e0b-4044-9dbc-a5d4231a0714' data-name='Yuli Gonzales'></button>";
+        document.getElementById('contador4').innerHTML = "<button id='id3' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-phyu.mp4' data-name='Phyu'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -43,7 +43,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 8) {
-        document.getElementById('contador5').innerHTML = "<button id='id4' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/juan.mp4?alt=media&token=4eb2969f-c38d-4270-bfda-e6a6f7fb7189' data-name='Juan' ></button>";
+        document.getElementById('contador5').innerHTML = "<button id='id4' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-ishty.mp4' data-name='Ishty' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -56,7 +56,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 10) {
-        document.getElementById('contador6').innerHTML = "<button id='id5' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/melky.mp4?alt=media&token=fff0d793-effb-46e9-a6f0-39e6f7b71baf' data-name='Melky' ></button>";
+        document.getElementById('contador6').innerHTML = "<button id='id5' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-ailyn.mp4' data-name='Ailyn' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -70,7 +70,7 @@ function cambiar() {
 
 
     } else if (contador == 12) {
-        document.getElementById('contador2').innerHTML = "<button id='id1' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/yuliana.MP4?alt=media&token=21e72d8a-a34c-4df9-8349-25b57d35962c' data-name='Yuliana'></button>";
+        document.getElementById('contador2').innerHTML = "<button id='id1' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-jeillamay.mp4' data-name='Jeillamay'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -83,7 +83,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 14) {
-        document.getElementById('contador9').innerHTML = "<button id='id8' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/winnie.mp4?alt=media&token=ef5dcee0-61d9-4f8c-96ea-e77ac3b51ffa' data-name='Winnie'></button>";
+        document.getElementById('contador9').innerHTML = "<button id='id8' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-joannah.mp4' data-name='Joannah'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -96,7 +96,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 16) {
-        document.getElementById('contador10').innerHTML = "<button id='id9' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/sonoftheonlyking.mp4?alt=media&token=d350ed84-7155-4c31-88ea-4b32bbf46400' data-name='Luis' ></button>";
+        document.getElementById('contador10').innerHTML = "<button id='id9' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-juan.mp4' data-name='Juan' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -109,7 +109,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 18) {
-        document.getElementById('contador11').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/Enmanuel.MP4?alt=media&token=ca781318-e666-455b-b210-27ae0348678a' data-name='Enmanuel'></button>";
+        document.getElementById('contador11').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-leiki.mp4' data-name='Leiki'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -122,7 +122,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 20) {
-        document.getElementById('contador12').innerHTML = "<button id='id11' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/jose_vt.mp4?alt=media&token=f92d86ab-e64a-48ec-b8ee-a996264ef426' data-name='Jose'></button>";
+        document.getElementById('contador12').innerHTML = "<button id='id11' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-marygrace.mp4' data-name='Mary Grace'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -135,7 +135,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 22) {
-        document.getElementById('contador13').innerHTML = "<button id='id12' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='https://firebasestorage.googleapis.com/v0/b/telemedicina-9eada.appspot.com/o/marco.mp4?alt=media&token=a62cbbb4-eb8a-485a-ae2c-37b2d447aa89' data-name='Marco'></button>";
+        document.getElementById('contador13').innerHTML = "<button id='id12' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-setuson.mp4' data-name='Setuson'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
