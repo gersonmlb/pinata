@@ -11,7 +11,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -24,7 +24,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -37,7 +37,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -50,7 +50,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -63,7 +63,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -77,7 +77,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -90,7 +90,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -103,7 +103,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -116,7 +116,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -129,7 +129,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -142,7 +142,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -154,7 +154,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -166,7 +166,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
@@ -179,7 +179,7 @@ function cambiar() {
             var name = button.data('name')
 
             var modal = $(this)
-            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-title').text('Gift of ' + name)
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
