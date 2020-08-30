@@ -198,7 +198,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 30) {
-        document.getElementById('contador17').innerHTML = "<button id='id17' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-.mp4' data-name=''></button>";
+        document.getElementById('contador17').innerHTML = "<button id='id17' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-nelson.mp4' data-name='Nelson'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
