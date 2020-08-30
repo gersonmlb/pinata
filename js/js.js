@@ -146,8 +146,32 @@ function cambiar() {
             modal.find('.modal-body iframe').attr('src', recipient)
         })
         contador += 1;
-
     } else if (contador == 24) {
+        document.getElementById('contador14').innerHTML = "<button id='id13' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-tatiana.mp4' data-name='Tatiana'></button>";
+        $('#exampleModal').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget)
+            var recipient = button.data('whatever')
+            var name = button.data('name')
+
+            var modal = $(this)
+            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-body iframe').attr('src', recipient)
+        })
+        contador += 1;
+    } else if (contador == 26) {
+        document.getElementById('contador15').innerHTML = "<button id='id14' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-wilson.mp4' data-name='Wilson'></button>";
+        $('#exampleModal').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget)
+            var recipient = button.data('whatever')
+            var name = button.data('name')
+
+            var modal = $(this)
+            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-body iframe').attr('src', recipient)
+        })
+        contador += 1;
+
+    } else if (contador == 28) {
         $("#granregalo").show();
         contador += 1;
 
