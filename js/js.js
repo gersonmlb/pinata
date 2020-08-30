@@ -172,6 +172,19 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 28) {
+        document.getElementById('contador8').innerHTML = "<button id='id15' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/video-familia.mp4' data-name='Family'></button>";
+        $('#exampleModal').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget)
+            var recipient = button.data('whatever')
+            var name = button.data('name')
+
+            var modal = $(this)
+            modal.find('.modal-title').text('Regalo de ' + name)
+            modal.find('.modal-body iframe').attr('src', recipient)
+        })
+        contador += 1;
+
+    } else if (contador == 30) {
         $("#granregalo").show();
         contador += 1;
 
