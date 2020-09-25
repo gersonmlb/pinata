@@ -32,15 +32,12 @@ body {
     color: #a3bad8;
 }
 
-#id2,
-#id4,
-#id6,
-#id8,
-#id10,
-#id15,
-#id17,
-#id12 {
-    background-image: url('../images/regalo.png');
+#id1,
+#id3,
+#id5,
+#id7,
+#id9 {
+    background-image: url('../images/regalo3.png');
     background-size: 100% 100%;
     background-color: #0c0c1c;
     outline: 0;
@@ -49,12 +46,11 @@ body {
     width: 50px;
 }
 
+#id1:hover,
 #id3:hover,
 #id5:hover,
 #id7:hover,
-#id9:hover,
-#id11:hover,
-#id1:hover {
+#id9:hover {
     background-image: url('../images/regaloabierto.png');
     background-size: 100% 100%;
     background-color: #0c0c1c;
@@ -65,15 +61,12 @@ body {
 }
 
 #id1,
-#id3,
-#id5,
-#id7,
-#id9,
-#id11,
-#id14,
-#id16,
-#id13 {
-    background-image: url('../images/regalo3.png');
+#id2,
+#id4,
+#id6,
+#id8,
+#id10 {
+    background-image: url('../images/regalo.png');
     background-size: 100% 100%;
     background-color: #0c0c1c;
     outline: 0;
