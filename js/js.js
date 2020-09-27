@@ -4,7 +4,7 @@ function cambiar() {
 
     if (contador == 2) {
 
-        document.getElementById('contador7').innerHTML = "<button id='id1' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_hannia.mp4' data-name='Hannia'></button>";
+        document.getElementById('contador1').innerHTML = "<button id='id1' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_hannia.mp4' data-name='Hannia'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -17,7 +17,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 4) {
-        document.getElementById('contador3').innerHTML = "<button id='id2' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_jose.mp4' data-name='Jose'></button>";
+        document.getElementById('contador2').innerHTML = "<button id='id2' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_jose.mp4' data-name='Jose'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -30,7 +30,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 6) {
-        document.getElementById('contador4').innerHTML = "<button id='id3' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_luisa.mp4' data-name='Luisa'></button>";
+        document.getElementById('contador3').innerHTML = "<button id='id3' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_luisa.mp4' data-name='Luisa'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -43,7 +43,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 8) {
-        document.getElementById('contador5').innerHTML = "<button id='id4' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_yuli.mp4' data-name='Yuli' ></button>";
+        document.getElementById('contador4').innerHTML = "<button id='id4' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_yuli.mp4' data-name='Yuli' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -56,7 +56,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 10) {
-        document.getElementById('contador6').innerHTML = "<button id='id5' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_jose_perez.mp4' data-name='Jose Perez' ></button>";
+        document.getElementById('contador5').innerHTML = "<button id='id5' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_jose_perez.mp4' data-name='Jose Perez' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -70,7 +70,7 @@ function cambiar() {
 
 
     } else if (contador == 12) {
-        document.getElementById('contador2').innerHTML = "<button id='id6' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_elo.mp4' data-name='Elo'></button>";
+        document.getElementById('contador6').innerHTML = "<button id='id6' onclick='sonido.pause()' class='btn video' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_elo.mp4' data-name='Elo'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -83,7 +83,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 14) {
-        document.getElementById('contador9').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_juan.MP4' data-name='Juan'></button>";
+        document.getElementById('contador7').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_juan.MP4' data-name='Juan'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -96,7 +96,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 16) {
-        document.getElementById('contador10').innerHTML = "<button id='id8' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_melky.mp4' data-name='Melky' ></button>";
+        document.getElementById('contador8').innerHTML = "<button id='id8' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_melky.mp4' data-name='Melky' ></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -109,7 +109,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 18) {
-        document.getElementById('contador11').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_velentina.mp4' data-name='Valentina'></button>";
+        document.getElementById('contador9').innerHTML = "<button id='id10' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_velentina.mp4' data-name='Valentina'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
@@ -122,7 +122,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 20) {
-        document.getElementById('contador12').innerHTML = "<button id='id9' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_winnie.mp4' data-name='Winnie'></button>";
+        document.getElementById('contador10').innerHTML = "<button id='id9' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_winnie.mp4' data-name='Winnie'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
