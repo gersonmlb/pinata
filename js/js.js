@@ -83,7 +83,7 @@ function cambiar() {
         contador += 1;
 
     } else if (contador == 14) {
-        document.getElementById('contador7').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_juan.MP4' data-name='Juan'></button>";
+        document.getElementById('contador7').innerHTML = "<button id='id7' onclick='sonido.pause()' class='btn video ' data-toggle='modal' data-target='#exampleModal' data-whatever='videos/vid_juan.mp4' data-name='Juan'></button>";
         $('#exampleModal').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var recipient = button.data('whatever')
